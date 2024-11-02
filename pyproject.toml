@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "marine-litter-detection-backend"
+version = "0.1.0"
+description = ""
+authors = ["None"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+torch = "^2.5.1"
+torchvision = "^0.20.1"
+opencv-python = "^4.10.0.84"
+pandas = "^2.2.3"
+requests = "^2.32.3"
+numpy = "^2.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
